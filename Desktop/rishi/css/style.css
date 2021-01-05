@@ -1,0 +1,512 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* **************html element style************** */
+html{
+    font-size: 60%;
+}
+
+
+.h{
+font-weight: bold;
+}
+
+/* /******************header style****************/
+ .logo,
+ .nav1 a{
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 171);
+    border-bottom: 5px solid blue;
+   border-radius: 20%;
+   text-align: center;
+   margin-bottom: 20px;
+   
+}
+
+
+.header .logo{
+    float: left;
+    font-size: 60px;
+    text-decoration: solid;
+ 
+} 
+
+ .nav1 .li{
+    float: right;
+}
+
+
+li{
+    margin-right: 40px;
+    list-style: none;
+    margin-top: 20px;
+    text-decoration: solid;
+
+}
+
+
+
+.nav1::after{
+    content:'' ;
+    display: none;
+    clear: none;
+}
+
+.nav1 a:link,
+.nave1 a:visited{
+    color: lightgray;
+}
+
+.nav1 li{
+    padding-bottom: 0.9rem;
+}
+
+.nav1 a:hover{
+    border-bottom: 1px solid rgb(33, 21, 122);
+}
+
+/* *********************utility class******************************* */
+
+.btn{
+    display: inline-block;
+    padding: 0.5em 1.5em ;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 00.5em 0;
+}
+
+.btn-primary{
+    background-color: rgb(12, 30, 228);
+
+}
+
+.img5{
+    height: 250px;
+}
+
+.container{
+    max-width: 1200;
+    width: 90%;
+    margin: 0 auto;
+   
+}
+.logo2{
+    font-size: 20px;
+}
+
+.text-red{
+    color: rgb(84, 137, 197);
+}
+
+.text-light{
+    color: rgb(141, 197, 199);
+}
+
+.text-black{
+    color: #3333;
+}
+
+.text-gray{
+    color: #555555;
+}
+ /* /******************************************************** */
+
+.header .nav1 .li{
+    display: inline-block;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+p li{
+font-size: 1.6rem;
+margin-bottom: 0.5;
+letter-spacing: 5px;
+}
+
+h1, h2 ,h3{
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+}
+
+.header h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* ***************header contant centre******** */
+.header p{
+    text-transform: uppercase;
+}
+
+
+.btn-primary{
+    color: rgb(250, 250, 250);
+    border-radius: 100px;
+}
+
+.btn{
+    border: 2px solid blue;
+    border-radius: 1.5em;
+    background-color: rgb(38, 38, 157);
+    color: cornsilk;
+}
+
+img{
+    margin-top: 5px;
+}
+
+.header{
+    height: 95vh;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+
+.container2{
+    position:absolute;
+    border:2px solid blue;
+    top: 20%;
+    left: 58%;
+    right: 5%;
+    text-align: center;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;  
+    background-color: lightyellow;
+}
+
+/* ***************showcase******************** */
+.showcase{
+    background-color: #c7e9e0b8;
+    padding: 20rem;
+}
+
+.row{
+    height: 350px;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 20px 5px  #7b7474;
+}
+
+.row1{
+    margin-bottom: 20rem;
+}
+
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+
+.mn{
+    width: 1250px;
+    margin-left: 50px ;
+}
+
+.qw{
+    margin: 30px 30px;
+    border: 2px solid blue;
+    width: 1250px;
+    margin-left: 50px ;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 20px;
+    font-size: 30px;
+}
+
+.row .img-box{
+    height: 100%;
+}
+.row .text-box{ 
+    padding: 3rem;
+
+}
+
+.iop{
+    width: 1300px;
+   margin-top: 133px;
+   margin-left: 30px;
+   border: 10px solid blue;
+}
+.op{
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.SIR{
+    font-size: 30px;
+    font-weight: 700;
+}
+ .gray{
+     font-size: 30px;
+     color: gray;
+ }
+/* *******************end box of first page************************** */
+
+.sec{
+    padding: 10%;
+}
+
+.end1::after{ 
+    display:block;
+    content: "";
+    clear: both;
+}
+
+.box{
+    width: 33.333333%;
+    border-radius: 9em;
+    float: left;
+    padding: 5rem;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px #2b2727;
+    font-size: 15px;
+}
+
+.box-1, .box-3{
+    background-color: blue;
+    color: #ffffff;
+}
+
+.box-2{
+    background-color: rgb(36, 31, 31);
+    color: #ffffff;
+}
+
+/* *************about************ */
+.c1{
+    background-color: rgb(255, 255, 255);
+}
+
+/* **************about*********************************** */
+.c11{
+    color: rgb(250, 250, 250);
+    padding: 10px;
+    font-size: 50px;
+    background-color: #00078e;
+}
+
+.sec{
+    font-size: 30px;
+    font-weight: 900;
+    background-color: rgb(240, 240, 12);
+}
+
+nav{
+    width: 1300px;
+    background-color: rgb(8, 8, 110);
+    color: cornsilk;
+
+}
+
+nav ul {
+    text-align: right;
+    padding: 20px;
+}
+
+Nav li{
+    display: inline;
+    list-style: none;
+    font-size: 15px;
+}
+
+.img1{
+    float: left;
+    margin-left: 50px;
+    margin-top: 2px;
+}
+
+.head1{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 120);
+    margin: 80px 160px 0px 50px ;
+    padding: 10px;
+    padding-left: 210px;
+}
+.head2{
+    font-size: 30px;
+    border: 2PX solid blue;
+    margin: 30px 160px 0px 50px ;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 120);
+    padding: 20px;
+}
+
+.p1{
+    font-size: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 20px 160px 0px 250px ;
+    padding: 25px;
+    background-color: rgb(234, 238, 241);
+}
+
+
+.p2{
+    font-size: 20px;  
+    margin: 20px 160px 0px 50px ;
+font-size: 30px;
+border-bottom:    10px solid  red;
+border-right: 10px solid red;
+background-color: lightyellow;
+
+}
+
+
+
+.p3{
+    font-size: 20px;  
+    margin: 20px 160px 0px 50px ; 
+
+    
+}
+
+
+.img3{
+    height: 300px;
+}
+
+.rishi{
+    border:  3px solid blue;
+    background-color: rgb(0, 13, 255);
+    color: rgb(250, 250, 250);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* ******************contact page style************************* */
+
+.fom{
+    padding: 7rem;
+    font-size: 2rem;
+}
+
+
+.img7{
+    width: 50%;
+    padding: 10px;
+}
+.class1{
+border: 2px solid blue;
+}
+
+.class1::after{ 
+    content: '';
+    display: block;
+    clear: both;
+}
+.form{
+    border: 3px solid rgb(217, 57, 17);
+    width: 49%;
+    float: left;
+    padding: 20px;
+}
+
+.comp{
+    border: 3px solid rgb(31, 10, 195);
+    width: 49%;
+    float: right;
+    padding: 20px;
+}
+
+.head3{
+    background-color: rgb(1, 1, 111);
+    width: 300px;
+    border-style: groove;
+    border-style: ridge;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: white;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.para{
+    font-size: 20px;
+    background-color: rgba(255, 255, 0, 0.396);
+    padding: 20px;
+}
+
+.h22{
+    background-color: rgb(243, 235, 235);
+    border-bottom: 7px solid red;
+    width: 500px;
+}
+
+.h23{
+    background-color:yellow;
+    color: rgb(34, 0, 137);
+   border-bottom: 5px solid blue;
+   border-radius: 20%;
+   text-align: center;
+}
+
+.ram{
+    color: rgb(98, 8, 22);
+}
+/* ********************************formstart*********************** */
+
+.text-center{
+    text-align: center;
+    font-size: 30px;
+    background-color: yellow;
+    color: rgb(7, 0, 211);
+    padding: 20px;
+    border-bottom: 10px solid blue;
+   border-radius: 20%;
+   text-align: center;
+}
+
+.header{
+    margin-top: 5%;
+}
+
+.form-group{
+    margin-top: 50%;
+}
+
+ .sujata{
+     margin-top: 0px;
+     margin-left: 200px;
+ }
+ .social-media-link{
+    margin-top: 100px;
+    cursor: pointer;
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+ }
+ .social-media-link i{
+     color:white;
+    margin-right: 10px;
+    font-size: 40px;
+ }
+ .social-media-link a i:nth-child(1):hover{color:#3d548e}
+ .social-media-link a i:nth-child(2):hover{color:#D42E76}
+ .social-media-link a i:nth-child(3):hover{color:#1D9CEB}
+ .social-media-link a i:nth-child(4):hover{color:#2c9bd2}
